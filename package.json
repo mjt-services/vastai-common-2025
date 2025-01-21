@@ -1,6 +1,6 @@
 {
   "name": "@mjt-services/vastai-common-2025",
-  "version": "2025.1.21-1016",
+  "version": "2025.1.21-1022",
   "sideEffects": false,
   "description": "vastai commmon",
   "main": "./dist/index.js",
