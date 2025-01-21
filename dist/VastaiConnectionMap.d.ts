@@ -1,3 +1,4 @@
+import type { VastAiSearchResponse } from "./3rd-party/VastAiSearchResponse";
 export type VastaiConnectionMap = {
     "vastai.search": {
         request: {
@@ -7,11 +8,7 @@ export type VastaiConnectionMap = {
                 query: string;
             };
         };
-        response: {
-            delta?: string;
-            text?: string;
-            done?: boolean;
-        };
+        response: VastAiSearchResponse;
         headers: {
             url?: string;
             authToken?: string;
