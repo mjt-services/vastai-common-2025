@@ -38,7 +38,7 @@ export type VastaiConnectionMap = {
         exposedPortMappings?: Record<number, number>;
       };
     };
-    response: { id: number };
+    response: { contractId: number };
     headers: {
       url?: string;
       authToken?: string;
