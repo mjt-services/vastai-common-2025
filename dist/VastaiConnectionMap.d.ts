@@ -26,4 +26,38 @@ export type VastaiConnectionMap = {
             authToken?: string;
         };
     };
+    "vastai.create.instance": {
+        request: {
+            options?: Partial<{}>;
+            body: {
+                machineId: number;
+                image: string;
+                diskGb?: number;
+                env?: Record<string, string>;
+                exposedPortMappings?: Record<number, number>;
+            };
+        };
+        response: {
+            id: number;
+        };
+        headers: {
+            url?: string;
+            authToken?: string;
+        };
+    };
+    "vastai.destroy.instance": {
+        request: {
+            options?: Partial<{}>;
+            body: {
+                contractId: number;
+            };
+        };
+        response: {
+            success: boolean;
+        };
+        headers: {
+            url?: string;
+            authToken?: string;
+        };
+    };
 };

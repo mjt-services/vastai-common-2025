@@ -1,6 +1,9 @@
 # Changelog
 
 
+## 2025-01-23
+- added destroy/create instance mappings ([64528cf](https://github.com/mjt-services/vastai-common-2025/commit/64528cf2f9e33cfe416f9710b09ab70788706674)) by Matt Taylor
+
 ## 2025-01-21
 - added instance type ([3cda1bb](https://github.com/mjt-services/vastai-common-2025/commit/3cda1bbc28401abbffdcd22854e95eab3bd72ddf)) by Matt Taylor
 - export VastAiSeearchResponse ([2c5e98f](https://github.com/mjt-services/vastai-common-2025/commit/2c5e98fe3664bd8591ca0902420da927c0d751d7)) by Matt Taylor
