@@ -38,7 +38,7 @@ export type VastaiConnectionMap = {
             };
         };
         response: {
-            id: number;
+            contractId: number;
         };
         headers: {
             url?: string;
