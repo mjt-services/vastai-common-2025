@@ -45,6 +45,22 @@ export type VastaiConnectionMap = {
             authToken?: string;
         };
     };
+    "vastai.connect.instance": {
+        request: {
+            options?: Partial<{}>;
+            body: {
+                contractId: number;
+                serviceName: string;
+            };
+        };
+        response: {
+            success: boolean;
+        };
+        headers: {
+            url?: string;
+            authToken?: string;
+        };
+    };
     "vastai.destroy.instance": {
         request: {
             options?: Partial<{}>;
