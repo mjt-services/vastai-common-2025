@@ -2,6 +2,7 @@
 
 
 ## 2025-01-24
+- updated connect contract ([d53e73c](https://github.com/mjt-services/vastai-common-2025/commit/d53e73c363038c62b9413ae5d60d7e97d8ce1b5c)) by Matt Taylor
 - added connect ([26ced76](https://github.com/mjt-services/vastai-common-2025/commit/26ced76b672fce651f44af485485e028e91175e8)) by Matt Taylor
 
 ## 2025-01-23

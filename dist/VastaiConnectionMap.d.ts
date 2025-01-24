@@ -51,6 +51,7 @@ export type VastaiConnectionMap = {
             body: {
                 contractId: number;
                 serviceName: string;
+                targetPort: number;
             };
         };
         response: {
