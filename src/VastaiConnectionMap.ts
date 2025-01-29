@@ -16,6 +16,20 @@ export type VastaiConnectionMap = {
       authToken?: string;
     };
   };
+  "vastai.label.instance": {
+    request: {
+      options?: Partial<{}>;
+      body: {
+        contractId?: number;
+        label: string;
+      };
+    };
+    response: VastAiSearchResponse;
+    headers: {
+      url?: string;
+      authToken?: string;
+    };
+  };
   "vastai.show.instances": {
     request: {
       options?: Partial<{}>;
@@ -31,11 +45,12 @@ export type VastaiConnectionMap = {
     request: {
       options?: Partial<{}>;
       body: {
-        machineId: number;
+        contractId: number;
         image: string;
         diskGb?: number;
         env?: Record<string, string>;
         exposedPortMappings?: Record<number, number>;
+        label?: string;
       };
     };
     response: { contractId: number };
