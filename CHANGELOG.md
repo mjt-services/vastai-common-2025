@@ -2,6 +2,7 @@
 
 
 ## 2025-01-29
+- fix label response ([6f2df25](https://github.com/mjt-services/vastai-common-2025/commit/6f2df25c5b0a02716feef985246b6e12c6fb95ab)) by Matt Taylor
 - contractId mandatory on label create ([164ed59](https://github.com/mjt-services/vastai-common-2025/commit/164ed5913198763dad13dfb941ee043aa798f0df)) by Matt Taylor
 - added label, fixed machineId->contractId on create instance ([c17a0fb](https://github.com/mjt-services/vastai-common-2025/commit/c17a0fb230fcb4f0fd7ab410b710acd604187bc3)) by Matt Taylor
 
