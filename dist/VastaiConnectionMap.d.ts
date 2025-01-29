@@ -19,7 +19,7 @@ export type VastaiConnectionMap = {
         request: {
             options?: Partial<{}>;
             body: {
-                contractId?: number;
+                contractId: number;
                 label: string;
             };
         };
