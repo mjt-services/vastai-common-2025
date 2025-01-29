@@ -24,7 +24,7 @@ export type VastaiConnectionMap = {
         label: string;
       };
     };
-    response: VastAiSearchResponse;
+    response: { success: boolean };
     headers: {
       url?: string;
       authToken?: string;
