@@ -1,6 +1,9 @@
 # Changelog
 
 
+## 2025-02-02
+- added onStartCmd to create-instance ([3b2d21d](https://github.com/mjt-services/vastai-common-2025/commit/3b2d21d1ac3e28ab92a1b5b2f96ea40a68ed85bd)) by Matt Taylor
+
 ## 2025-01-29
 - fix label response ([6f2df25](https://github.com/mjt-services/vastai-common-2025/commit/6f2df25c5b0a02716feef985246b6e12c6fb95ab)) by Matt Taylor
 - contractId mandatory on label create ([164ed59](https://github.com/mjt-services/vastai-common-2025/commit/164ed5913198763dad13dfb941ee043aa798f0df)) by Matt Taylor

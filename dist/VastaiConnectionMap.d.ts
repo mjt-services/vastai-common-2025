@@ -52,6 +52,7 @@ export type VastaiConnectionMap = {
                 env?: Record<string, string>;
                 exposedPortMappings?: Record<number, number>;
                 label?: string;
+                onStartCmd?: string;
             };
         };
         response: {
