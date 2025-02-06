@@ -1,6 +1,9 @@
 # Changelog
 
 
+## 2025-02-06
+- fixed typos in README ([c076f00](https://github.com/mjt-services/vastai-common-2025/commit/c076f007b64de04e3e779f3a33c4d94f940dd159)) by Matt Taylor
+
 ## 2025-02-02
 - added onStartCmd to create-instance ([3b2d21d](https://github.com/mjt-services/vastai-common-2025/commit/3b2d21d1ac3e28ab92a1b5b2f96ea40a68ed85bd)) by Matt Taylor
 
